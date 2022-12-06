@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#left {
+    background-color: red;
+}
+
+#right2 {
+    background-color: orange;
+    position: absolute;
+    left: 100px;
+    opacity: 50%;
+}
+
+.right {
+    background-color: orange;
+    position: absolute;
+    left: 100px;
+    opacity: 60%;
+}
+h1 {
+    margin-right: 45px;
+}
