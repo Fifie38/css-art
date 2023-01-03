@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    position: relative;
+    width: 310px;
+    height: 310px;
+}
+.win {
+    height: 150px;
+    width: 150px;
+    position:absolute;
+}
+
+.orange {
+    background-color: #F25022;
+    top: 0;
+    left: 0;
+}
+.green {
+    background-color: #7FBA00;
+    top: 0;
+    right: 0;
+}
+.blue {
+    background-color: #00A4EF;
+    bottom: 0;
+    left: 0;
+}
+.yellow {
+    background-color: #FFB900;
+    bottom: 0;
+    right: 0;
+}
+
