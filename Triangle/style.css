@@ -1,0 +1,13 @@
+body {
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    border: solid 55px rgba(0, 0, 0, 0);
+    border-left: solid 55px red;
+    border-top: solid 55px red;
+}
